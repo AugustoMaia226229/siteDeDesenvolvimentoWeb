@@ -1,0 +1,63 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+#cabecalho33{
+    background-color: #ffee00c2;
+}
+body{
+    background-image: url(../imagens/imagemDoFundoDoSite.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    color:  #fff;
+}
+.primeiroTexto{
+    padding: 5%;
+    font-size: 115%;
+    text-align: justify;
+}
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.nomePersonagens{
+    text-align: center;
+    font-size: 140%;
+}
+main img:hover{
+        -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+}
+main{
+    padding: 3%;
+    border-radius: 15%;
+    background-color: #ffee00c2;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    width: 65%;
+    color: #140083;
+}
+@media screen and (max-device-width: 800px) {
+    *{
+        font-size: 120%;
+    }
+    .column {
+      width: 100%;
+      display: list-item;
+    }
+  }
+#tituloTopo span {
+    font-size: 175%;
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(to right, rgb(33, 71, 240) 50%, rgb(4, 135, 139) 50%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    padding: 0%;
+}

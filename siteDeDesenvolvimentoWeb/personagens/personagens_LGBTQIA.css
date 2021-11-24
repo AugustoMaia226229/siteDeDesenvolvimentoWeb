@@ -1,0 +1,38 @@
+body {
+    background-image: url(imagens/Remini20210918125715867.jpg);
+    background-attachment: fixed;
+}
+.imagens{
+    width: 40%;
+}
+.formatacaoCaixas{
+    margin-top: 40%;
+    padding: 5%;
+    background-color: rgba(46, 7, 109, 0.651);
+    margin: 50px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5mm;
+    font-size: 20px;
+    color: #fff
+}
+img:hover{
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+p{
+    text-align: justify;
+}
+#tituloTopo span {
+    font-size: 175%;
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(to right, rgb(240, 219, 33) 50%, rgb(226, 106, 8) 50%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    padding: 0%;
+}

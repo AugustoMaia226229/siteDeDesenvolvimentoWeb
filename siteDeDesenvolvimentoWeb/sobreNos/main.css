@@ -1,0 +1,166 @@
+
+body {
+    background-image: url(imagens/FundoSobre.png);
+    background-attachment: fixed;
+}
+#cabecalho33{
+    background-color: rgba(6, 46, 107, 0.911);
+}
+#easter_egg {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#lattes {
+    color: coral;
+    cursor: pointer;
+}
+
+#imgtutuba {
+    width: 70%;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+#tutuba {
+    text-align: center;
+    margin: 0%;
+}
+
+.osBixoFeio {
+    margin-top: 40%;
+    padding: 5%;
+    background-color: rgba(46, 7, 109, 0.651);
+    margin: 50px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5mm;
+    font-size: 20px;
+    color: #fff
+}
+
+#parteAug {
+    width: 22%;
+    float: right;
+}
+
+#partePed {
+    width: 22%;
+    float: left;
+}
+
+#parteGian {
+    width: 22%;
+    float: right;
+}
+
+#parteFabio {
+    width: 22%;
+    float: left;
+}
+
+#textoP {
+    margin-left: 26%;
+}
+
+#textoF {
+    margin-left: 26%;
+}
+
+.osBixoFeio img:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+/*#deadpool {
+    position: flex;
+    top: -31.7%;
+    z-index: 99;
+    transform: rotate(-5deg);
+}
+
+#obi {
+    position: flex;
+    top: -31.5%;
+    right: -1.5%;
+}
+*/
+.rodape {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    
+     .cabecalho_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+ #navTopo {
+    display: flex;
+    text-align: right;
+    padding-top: 40px;
+    justify-content: space-between;
+} 
+
+    #tituloTopo {
+        text-align: center;
+        width: auto;
+    }
+    #navTopo {
+        position: static;
+    }
+    .linha {
+        display: none;
+    }
+    #tutuba {
+        display: none;
+    }
+    p, h2{
+        font-size: small;
+    }
+    #parteAug{
+        width: 45%;
+    }
+    #parteGian{
+        width: 45%;
+    }
+    #parteFabio {
+        width: 45%;
+        float: right;
+    }
+    #partePed {
+        width: 45%;
+        float: right;
+    }
+    #textoP {
+        margin-left: 0%;
+    }
+    
+    #textoF {
+        margin-left: 0%;
+    }
+    header {
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .listaTopo{
+        display: inline;
+        text-decoration: none;
+    }
+    .rodape{
+        font-size: small;
+    }
+}

@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/Bandeira-LGBT+Deadpool.png);
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: Ubuntu, Roboto, 'Noto Sans JP', Lato, sans-serif;
+}
+.login-screen {
+    background: linear-gradient(rgba(128, 0, 128, 0.615), darkblue);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    color: #fff;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+.inputs {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.inputs:invalid{
+    outline-color: red;
+}
+.inputs:valid{
+    outline-color: green;
+}
+
+#botao {
+    padding: 20px;
+    width: 40%;
+    margin: 10mm auto;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(to right, orangered, orange);
+    cursor: pointer;
+}
+
+#mensagem {
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#titulo, #subtitulo {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
